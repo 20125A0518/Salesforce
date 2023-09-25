@@ -1,0 +1,276 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+#div1{
+   height:160px;
+   width:100%; 
+}
+#idiv11{
+    height: 60px;
+    width:94%;
+    margin-left: 3%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+#idiv111{
+    height:60px;
+    width:15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+#idiv111 ul{
+    display:flex;
+    list-style: none;
+}
+.ll{
+    font-size: small;
+    text-decoration: none;
+    margin-top: 2%;
+}
+.ll:hover{
+    text-decoration: underline;
+}
+#idiv111 img{
+    margin-top: -5%;
+}
+#idiv12{
+    height: 70px;
+    width:96%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+#idiv121{
+    height: 70px;
+    width:35%;
+    padding-top: 30px;
+}
+#idiv12 div ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#idiv12 div ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+}
+#idiv122{
+    min-height:70px;
+    line-height: 70px;
+    width:25%;
+}
+.btn1{
+    height:40px;
+    width:45%;
+    background-color: rgb(69, 140, 247);
+    border-radius: 5px;
+}
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: rgb(5, 5, 109);
+}
+.btn1 a:hover{
+    text-decoration: underline;
+}
+.btn2{
+    height:40px;
+    width:40%;
+    border:2px solid rgb(69, 140, 247);
+    border-radius: 5px;
+}
+.btn2 a{
+    color:rgb(69, 140, 247);
+    text-decoration: none;
+}
+.btn2 a:hover{
+    text-decoration: underline;
+}
+#div2{
+    width:100%;
+    height:400px;
+    background-image: url(https://img.freepik.com/premium-photo/silhouette-man-ride-bicycle-sunset_44277-19456.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#idiv2{
+    margin-left: 20%;
+    height:300px;
+    width:60%;
+    margin-top: 50px;
+}
+.para{
+    text-align: center;
+    font-size: small;
+    color:white;
+}
+.h1{
+    padding-top: 2%;
+    text-align: center;
+    font-size:54px;
+    color:white;
+}
+.h2{
+    padding-top: 1%;
+    text-align: center;
+    font-size:18px;
+    color:white;
+}
+.btn3{
+    height:40px;
+    width:40%;
+    border-radius: 5px;
+    background: transparent;
+    margin-left: 30%;
+    margin-top: 3%;
+    border:2px solid white;
+}
+.btn3 a{
+    color: white;
+    text-decoration: none;
+}
+.btn3:hover{
+    border:2px solid gray;
+}
+.btn3 a:hover{
+    text-decoration: underline;
+    color:gray;
+}
+#div3{
+    width:55%;
+    margin-left:10%;
+    height:80px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.cls1{
+    color:rgb(33, 89, 245);
+}
+.form{
+    height:35px;
+    width:100%;
+}
+.div4{
+    height:600px;
+    width:80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.idiv41{
+    border-radius: 10px;
+    height: 600px;
+    width:32%;
+    border:2px solid whitesmoke;
+}
+.idiv41:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+.idiv411{
+    height:400px;
+    width:100%;
+}
+.img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#div5{
+    height:350px;
+    background-image: url(https://i.etsystatic.com/16894253/r/il/446c8d/3219209035/il_794xN.3219209035_jmtg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#idiv5{
+    width:80%;
+    height:220px;
+    margin-top:80px;
+    margin-left: 10%;
+}
+.h3{
+    color:rgb(2, 2, 75);
+    text-align: center;
+    font-size: 46px;
+}
+#idiv51{
+    width:40%;
+    margin-left:30%;
+    margin-top:5%;
+}
+#div6{
+    width:98%;
+    height:150px;
+    background-color: black;
+    padding-left: 30px;
+}
+#idiv61{
+    width:40%;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.form1{
+    color: whitesmoke;
+    background: transparent;
+    height:30px;
+    margin-top:1%;
+    width:20%;
+}
+#nav{
+    margin-left:25%;
+    margin-top:-5%;
+    display:flex;
+    justify-content: space-between;
+}
+#nav a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+}
+#nav a:hover{
+    text-decoration: underline;
+}
+#idiv62{
+    width:10%;
+    float:right;
+    height:40px;
+    margin-right:5%;
+    margin-top:-3%;
+    display:flex;
+    justify-content: space-around;
+}
+#nav11{
+    min-height:40px;
+    line-height: 40px;
+    width:40%;
+    margin-top:1%;
+    display:flex;
+    justify-content: space-between;
+}
+#nav11 a{
+    font-size: small;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#nav11 a:hover{
+    text-decoration: underline;
+}
+#idiv63{
+    float:right;
+    margin-right:3%;
+    width:40%;
+    height:30px;
+    margin-top:-2%;
+}
+#idiv63 p{
+    color:whitesmoke;
+    font-size: small;
+}

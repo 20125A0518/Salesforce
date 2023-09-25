@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="salesforce.jpg">
+    <title>Customers Stories- Tableau Products Reviews</title>
+    <link rel="stylesheet" href="Customers.css">
+</head>
+<body>
+    <div id="div1">
+        <div id="idiv11">
+            <img src="data:image/png;base64,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" alt="" width="10%" height="50px">
+            <div id="idiv111">
+                <ul>
+                    <li><a href="" class="ll">PRICING</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="" class="ll">SIGN IN</a></li>
+                </ul>
+                <img src="https://img.icons8.com/?size=48&id=FCWh2OEOtC3k&format=png" alt="Search" height="40px" width="40px" >
+            </div>
+        </div>
+        <div id="idiv12">
+            <div id="idiv121">
+                <ul>
+                    <li><a href="">Why Tableau</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Solutions</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Patners</a></li>
+                </ul>
+            </div>
+            <div id="idiv122">
+                <button class="btn1"><a href="">CONTACT SALES</a></button>&nbsp;&nbsp;
+                <button class="btn2"><a href="">Try Now</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="div2"><br>
+        <div id="idiv2">
+            <p class="para">SOLUTIONS</p>
+            <h1 class="h1">Customer Stories</h1>
+            <h4 class="h2">Tableau empowers the world’s top organizations to see and understand their data—inspiring breakthroughs and driving impact.</h4>
+            <button class="btn3"><a href="">HEAR FROM THE TABLEAU CUSTOMER</a></button>
+        </div>
+    </div>
+    <div id="div3">
+        <div class="idiv31">
+            <label for="Country" class="cls1">Region</label><br>
+            <select name="" id="Country" class="form">
+                <option value="" disabled selected hidden>-Any-</option>
+                <option value="">North America</option>
+                <option value="">Europe</option>
+                <option value="">Asia Pacific</option>
+                <option value="">Latin America</option>
+                <option value="">Middle East & Africa</option>
+                <option value="">Worldwide</option>
+            </select>
+        </div>
+        <div class="idiv31">
+            <label for="Country" class="cls1">Industry</label><br>
+            <select name="" id="Country" class="form">
+                <option value="" disabled selected hidden>-Any-</option>
+                <option value="">Academics</option>
+                <option value="">Communications,Media & Technology</option>
+                <option value="">Energy & Resources</option>
+                <option value="">Financial Services</option>
+                <option value="">Healthcare</option>
+                <option value="">High Technology</option>
+                <option value="">Industrial Products and Manufacturing</option>
+                <option value="">Life Sciences</option>
+                <option value="">Manufacturing</option>
+                <option value="">Patner</option>
+                <option value="">Professional Services</option>
+                <option value="">Public Sector</option>
+                <option value="">Retail & Consumer Goods</option>
+                <option value="">Services</option>
+                <option value="">Travel & Transportation</option>
+            </select>
+        </div>
+        <div class="idiv31">
+            <label for="Country" class="cls1">Department</label><br>
+            <select name="" id="Country" class="form">
+                <option value="" disabled selected hidden>-Any-</option>
+                <option value="">Analytics</option>
+                <option value="">Finance</option>
+                <option value="">Institutional Research</option>
+                <option value="">Supply hain  Ḍistribution</option>
+                <option value="">Ēngineeriṇg/R&D</option>
+                <option value="">Administration (Management)</option>
+                <option value="">Human Resources</option>
+                <option value="">IT</option>
+                <option value="">Legal</option>
+                <option value="">Marketing</option>
+                <option value="">Manufacturing</option>
+                <option value="">Channel Partner</option>
+                <option value="">Product Management</option>
+                <option value="">Purchasing</option>
+                <option value="">Sales</option>
+                <option value="">cience/Research</option>
+                <option value="">Support/Service</option>
+                <option value="">Other</option>
+            </select>
+        </div>
+    </div>
+    <div class="div4">
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="carter.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href="" style="color:rgba(45, 4, 4, 0.404);text-decoration:none;font-size:small;">CUSTOMER STORY</a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">Bulid a Center of <br> Enablement: A retail leader's recent journey to data literacy</a>
+            </div>
+        </div>
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="f5.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/2022-12/F5-LOGO.png?itok=T3BAQ3ir" alt="F5" width="40px" height="40px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">F5 builds data-focused culture with Tableau Blueprint and Tableau Cloud</a>
+            </div>
+        </div>
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="food.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/companies/wfp_logo_0.png?itok=VUCFlWZn" alt="F5" width="70px" height="40px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">UN World Food Programme promotes organizations-wide data literacy to advance food</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="div4">
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="health.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/2023-02/CVS_Health_Logo.png?itok=nMkkUQPd" alt="F5" width="300px" height="60px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:23px;text-decoration:none;font-weight:bold;line-height:30px;">Data insights in the midst of the COVID-19 pandemic helped CVS Health improve readiness,</a>
+            </div>
+        </div>
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="robust.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/2023-02/mercado%20libre%20logo.png?itok=H0JRGUIo" alt="F5" width="40px" height="40px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">Robust upskills program empowers transformation to a data culture at e-commerce</a>
+            </div>
+        </div>
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="american.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/2022-12/AMFAMLOGO.png?itok=gd2Qnbhs" alt="American Family" width="120px" height="40px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">AmFam creates more fuctionality for agency owners via a Tableau Embedded</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="div4">
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="bently.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/2023-01/Bentley-Logo.png?itok=0XTw_ZJt" alt="Bently" width="80px" height="50px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:23px;text-decoration:none;font-weight:bold;line-height:30px;">Bently Motors uses Tableau self-service analytics to drive transformational change as it</a>
+            </div>
+        </div>
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="verizon.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/companies/verizon_logo.png?itok=Hgt5ZJc4" alt="verizon" width="120px" height="40px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">Verizon uses Tableau to reduce support calls by 43%, enhancing customer</a>
+            </div>
+        </div>
+        <div class="idiv41">
+            <div class="idiv411">
+                <img src="cigna.png" alt="carter" width="100%" height="400px" class="img">
+            </div>
+            <div style="padding:5%;">
+                <a href=""><img src="https://www.tableau.com/sites/default/files/styles/scale_220x60/public/companies/cigna.png?itok=8FyJ7TQc" alt="cigna" width="120px" height="40px"></a><br>
+                <a href="" style="color:rgb(5, 5, 85);font-size:24px;text-decoration:none;font-weight:bold;line-height:30px;">Cigna embraces Tableau, improves healthcare affordability and care for 95M</a>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:5%;text-align:center;height:100px;">
+        <a href="" style="text-align:center;font-size:small;color:rgb(34, 81, 222);text-decoration:none;">Load more</a>
+    </div>
+    <div id="div5">
+        <div id="idiv5">
+            <h2 class="h3">Connect with your customers and boost your bottom line with actionable insights.</h2>
+            <div id="idiv51">
+                <button class="btn1"><a href="">CONTACT SALES</a></button>&nbsp;&nbsp;
+                <button class="btn2"><a href="">Try Now</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="div6"><br>
+        <div id="idiv61">
+                <select name="" id="Country" class="form1">
+                    <option value="" disabled selected hidden>English(US)</option>
+                    <option value="">English(UK)</option>
+                    <option value="">Afghanisthan</option>
+                    <option value="">Albaina</option>
+                    <option value="">America Samoa</option>
+                    <option value="">Andorra</option>
+                    <option value="">Anguilla</option>
+                    <option value="">Antarctica</option>
+                    <option value="">Aruba</option>
+                    <option value="">Others</option>
+                    <option value="">India</option>
+                    <option value="">Bangladesh</option>
+                    <option value="">Finland</option>
+                    <option value="">French</option>
+                    <option value="">Gambia</option>
+                    <option value="">Guam</option>
+                    <option value="">Iceland</option>
+                    <option value="">Indonesia</option>
+                    <option value="">Ireland</option>
+                    <option value="">Japan</option>
+                </select>
+                <div id="nav">
+                    <a href="">System Status</a>
+                    <a href="">Blog</a>
+                    <a href="">Developer</a>
+                    <a href="">Careers</a>
+                    <a href="">Contact Us</a>
+                </div>
+        </div>
+        <div id="idiv62">
+            <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiLiOaPlELkIj77MsK1rbQivwkeaGtY441Sw&usqp=CAU" alt="Linkedin" width="30px" height="40px" style="border-radius:5px;"></a>
+            <a href=""><img src="data:image/png;base64,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" alt="Facebook" width="30px" height="40px" style="border-radius:5px;"></a>
+            <a href=""><img src="data:image/png;base64,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" alt="Twitter" width="30px" height="40px" style="border-radius:5px;"></a>
+        </div>
+        <nav id="nav11">
+            <a href="">LEGAL</a>
+            <a href="">PRIVACY</a>
+            <a href="">UNINSTALL</a>
+            <a href="">COOKIE PREFERENCES</a>
+            <a href="">YOUR PRIVACY CHOICES</a>
+        </nav>
+        <div id="idiv63">
+            <p>© 2003-2023 TABLEAU SOFTWARE, LLC, A SALESFORCE COMPANY. ALL RIGHTS RESERVED</p>
+        </div>
+    </div>
+</body>
+</html>
